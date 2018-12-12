@@ -5,7 +5,7 @@
 // +build all
 // See SQLITE_OMIT_LOAD_EXTENSION (http://www.sqlite.org/compile.html)
 
-package sqlite
+package gosqlite
 
 /*
 #include <sqlite3.h>

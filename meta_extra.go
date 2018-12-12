@@ -5,7 +5,7 @@
 // +build all
 // See SQLITE_ENABLE_COLUMN_METADATA (http://www.sqlite.org/compile.html)
 
-package sqlite
+package gosqlite
 
 /*
 #include <sqlite3.h>

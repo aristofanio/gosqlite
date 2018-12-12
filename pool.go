@@ -4,7 +4,7 @@
 
 // +build all
 
-package sqlite
+package gosqlite
 
 import (
 	"sync"

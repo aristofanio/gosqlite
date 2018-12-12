@@ -2,11 +2,12 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-package sqlite_test
+package gosqlite
 
 import (
-	. "github.com/gwenn/gosqlite"
 	"testing"
+
+	. "github.com/gwenn/gosqlite"
 )
 
 func checkCacheSize(t *testing.T, db *Conn, expectedSize, expectedMaxSize int) {

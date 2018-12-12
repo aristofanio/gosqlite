@@ -4,7 +4,7 @@
 
 // +build all
 
-package sqlite_test
+package gosqlite
 
 import (
 	"fmt"

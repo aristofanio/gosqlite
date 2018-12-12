@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Package sqlite provides access to the SQLite library, version 3.
-package sqlite
+package gosqlite
 
 /*
 #cgo linux freebsd pkg-config: sqlite3
