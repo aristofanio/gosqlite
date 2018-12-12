@@ -332,8 +332,8 @@ func (s *Stmt) Bind(args ...interface{}) error {
 	return nil
 }
 
-// NullIfEmptyString transforms empty string to null when true (true by default)
-var NullIfEmptyString = true
+// NullIfEmptyString transforms empty string to null when true (false by default)
+var NullIfEmptyString = false
 
 // NullIfZeroTime transforms zero time (time.Time.IsZero) to null when true (true by default)
 var NullIfZeroTime = true
